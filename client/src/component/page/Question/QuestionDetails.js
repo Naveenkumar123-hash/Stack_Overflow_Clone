@@ -76,7 +76,7 @@ const QuestionDetails = () => {
   const dispatch=useDispatch()
   const location=useLocation()
   let user=useSelector(state=>state.currentUserReducer)
-  const Url="http://localhost:3000";
+  const Url="https://github-repositorie.onrender.com";
 
   const handleupVote=()=>{
     dispatch(AnswerVotes(id,"upVote",user.result._id))
